@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>The Wonder of Cows</title>
+    <!-- Bootswatch Theme -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- COMPONENTS -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background-color: var(--bs-shingle);">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="/first-page.html">
+                <!-- IMAGE -->
+                <img src="images/cow-logo.png" alt="Bootstrap" height="50">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="first-page.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#udder-joke">Joke</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#table-and-accordion">Info</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#submit">Submit</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
+    <!-- COMPONENTS -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <!-- IMAGE -->
+                <img src="images/highland-cow.png" class="d-block w-100" alt="highland-cow">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Highland Cow</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- IMAGE -->
+                <img src="images/angus-cow.png" class="d-block w-100" alt="angus-cow">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Black Angus Cow</h5>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <!-- IMAGE -->
+                <img src="images/holstein-cow.png" class="d-block w-100" alt="holstein-cow">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Holstein Cow</h5>
+                </div>
+            </div>
+        </div>
+        
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <!--UTILITIES -->
+    <div class="container-fluid text-center bg-secondary" id="udder-joke" style="padding: 3ch;">
+        <p style="margin: 0;"><em>"What do you call a cow that doesn't give milk?</em></p>
+        <p style="margin: 0;"><strong>An udder failure"</strong></p>
+        <p style="margin: 0;">-Unknown</p>
+    </div>
+
+    <div class="container text-center" style="background-color: #b9d4f3ae;; padding: 0; margin: 0; max-width: 100%;"
+        id="table-and-accordion">
+        <div class="row">
+            <div class="col-md-4" style="padding: 5ch;">
+                <!-- TABLE -->
+                <table class=" table">
+                    <thead>
+                        <tr class="table-secondary">
+                            <th scope="col">#</th>
+                            <th scope="col">Top Breeds in US</th>
+                            <th scope="col">Origin</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="table-secondary">
+                            <th scope="row">1</th>
+                            <td>Black Angus</td>
+                            <td>Scotland</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">2</th>
+                            <td>Charolais</td>
+                            <td>French</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">3</th>
+                            <td>Hereford</td>
+                            <td>England</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">4</th>
+                            <td>Simmental</td>
+                            <td>Switzerland</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">5</th>
+                            <td>Red Angus</td>
+                            <td>No Origin*</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">6</th>
+                            <td>Longhorn</td>
+                            <td>Texas, US</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">7</th>
+                            <td>Gelbvieh</td>
+                            <td>Germany</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">8</th>
+                            <td>Holstein</td>
+                            <td>Netherlands</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">9</th>
+                            <td>Limousin</td>
+                            <td>France</td>
+                        </tr>
+                        <tr class="table-secondary">
+                            <th scope="row">10</th>
+                            <td>Highland</td>
+                            <td>Scotland</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <!-- UTILITIES -->
+                <p class="text-primary"><em>* People developed this breed of cattle from other domestic cows. For
+                        this reason,
+                        they have
+                        no
+                        origin.</em></p>
+            </div>
+            <div class="col-md-4" style="padding: 5ch;">
+                <!-- COMPONENTS -->
+                <div class="accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+    
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                Fluffy
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                            aria-labelledby="panelsStayOpen-headingOne">
+                            <div class="accordion-body">
+                                <strong>"These cows have such a distinctive coat to assist with cold tolerance.</strong> How
+                                they achieve such
+                                a legendary status of floof (definitely not a scientific term) is through a double coat of
+                                hair. The outer layer consists of oily hair, while the undercoat is soft and fluffy."
+                                <em>- Maggie Tuten Tyner</em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+    
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Amazing
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingTwo">
+                            <div class="accordion-body">
+                                <strong>"Cows are known as domestic animals.</strong> They are raised like cattle for meat,
+                                milk, and hides to
+                                make leather. Cows are also serving as pets. Cows love to be social as humans they
+                                always
+                                stay in groups, for developing bonds."
+                                <em>- Aatka Azhar</em>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+    
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                "Big Puppers"
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse"
+                            aria-labelledby="panelsStayOpen-headingThree">
+                            <div class="accordion-body">
+                                The following quote is a direct text message from girlfriend, Bri Ber-Moo (reveered cow
+                                enthusiast):
+                                <strong><em>"[A]nd that they're very loving animals, i say they're like big puppers bc they
+                                        act like dogs sometimes lol. like big puppies"</em></strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4" style="padding: 5ch;">
+                <!-- FIGURE -->
+                <figure class="figure">
+                    <img src="images/cow-chart.png" class="figure-img img-fluid rounded" alt="cow-chart">
+                    <!-- UTILITIES -->
+                    <figcaption class="figure-caption text-primary">Illustration for main breeds for cattle</figcaption>
+                </figure>
+            </div>
+        </div>
+    </div>
+    
+    <!-- FORM -->
+    <div class="container text-center" style="background-color: var(--bs-green-smoke); padding: 2ch; max-width: 100%;"
+        id="submit">
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Name</label>
+            <input class="form-control" id="exampleFormControlInput1" placeholder="Johnny Appleseed">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Enter joke below</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="2"></textarea>
+        </div>
+        <a class="btn btn-secondary" href="/second-page.html" role="button">Submit</a>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"
+        integrity="sha384-mQ93GR66B00ZXjt0YO5KlohRA5SY2XofN4zfuZxLkoj1gXtW8ANNCe9d5Y3eG5eD"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
